@@ -1,0 +1,117 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+   
+     .container {
+        width: 400% ;
+        max-width: 400px;
+        height: auto;
+        margin: 50px auto;
+        padding: 0 20px;
+        background: #fff;
+        border-radius: 5px;
+     }
+     .container h1{
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333333;
+     }
+     .video-player {
+        display: block;
+        max-width: 100%;
+        width: 400px;
+        height: 400px;
+        margin: 20px auto;
+     }
+     .audio-player {
+        display: block;
+        max-width: 100%;
+        width: 400px;
+        margin: 20px auto;
+     }
+     .services {
+        max-width: 420px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+        list-style: disc inside;
+     }
+     .services li {
+        margin-bottom: 12px;
+        color: #333333;
+        font-size: 1rem;
+     }
+     .services li:last-child {
+        margin-bottom: 0;
+     }
+     .about-page {
+        max-width: 700px;
+        margin: 40px auto;
+        padding: 30px;
+     }
+     .about-page h1 {
+        text-align: center;
+        margin-bottom: 20px;
+     }
+     .about-page p {
+        margin-bottom: 18px;
+        line-height: 1.7;
+        color: #424a55;
+     }
+     .about-page h2 {
+        margin-top: 24px;
+        margin-bottom: 12px;
+        color: #1f2732;
+     }
+     .about-page ul {
+        list-style: disc inside;
+        padding-left: 0;
+        color: #333333;
+     }
+     .about-page li {
+        margin-bottom: 10px;
+     }
+     a {
+        display: inline-block;
+        margin: 20px auto;
+        text-decoration: none;
+     }
+     a:hover {
+        text-decoration: underline;
+     }
+    form input,
+      form textarea{
+         display: block;
+         width: 100%;
+         padding: 10px;
+         margin-bottom: 10px;
+         border:none;
+         border-radius: 5px;
+         background: #f9f9f9;
+         color: rgb(0, 189, 0);
+      }
+      form input:focus,
+      form textarea:focus{
+         outline: none;
+         box-shadow: 0 0 0 4px rgba(0,189,0,0.12);
+         border-color: green;
+      }
+        form button{
+            display: block;
+            width: 100%;
+            padding: 5px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        form button:hover{
+            background-color: green;
+        }
