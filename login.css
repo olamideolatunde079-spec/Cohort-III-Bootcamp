@@ -1,0 +1,124 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+  body{ 
+        background:rgb(248, 248, 248);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+   }
+    div {
+        display:flex
+    } 
+     .wrapper {
+        width: 100%;
+        max-width: 380px;
+        background: #ffffff;
+        border: 1px solid #d8e1e9;
+        border-radius: 18px;
+        padding: 28px 26px;
+        box-shadow: 0 14px 35px rgba(24, 39, 75, 0.12);
+        gap: 18px;
+        display: flex;
+        flex-direction: column;
+     }
+     .wrapper h1{
+        text-align: center;
+        margin-bottom: 10px;
+        color: #202840;
+     }
+     .input-box {
+        margin-bottom: 10px;
+     }
+          .input-box input {
+             display: block;
+             width: 100%;
+             padding: 10px;
+             border: 1px solid #d8e1e9;
+             border-radius: 6px;
+             background: #f9f9f9;
+             color: rgb(3, 3, 3);
+       }
+     .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+        font-size: 0.95rem;
+        color: #4b634c;
+     }
+     .remember-forgot a {
+        color: #2563eb;
+        text-decoration: none;
+     }
+     .remember-forgot a:hover {
+        text-decoration: underline;
+     }
+     .remember-forgot label {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+     }
+     .btn {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid rgb(1, 172, 1);
+        border-radius: 12px;
+        background-color: rgb(0, 163, 0);
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+     }
+     .btn:hover {
+        background-color: rgb(27, 150, 3);
+     }
+     .Register-link {
+        text-align: center;
+        margin-top: 10px;
+        color: rgb(0, 189, 0);
+        font-size: 0.95rem;
+     }
+     .Register-link a {
+        color: green;
+        text-decoration: none;
+     }
+     .Register-link a:hover {
+        text-decoration: underline;
+     }
+     p[align="center"] {
+        margin-top: 18px;
+        color: #476950;
+     }
+     p[align="center"] a {
+        color: #2563eb;
+     }
+     form input[type="text"],
+     form input[type="password"],
+     form textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #f9f9f9;
+        color: rgb(0, 0, 0);
+     }
+     form input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+     }
+    form input:focus,
+    form textarea:focus{
+         outline: none;
+         box-shadow: 0 0 0 4px rgba(0,189,0,0.12);
+         border-color: green;
+    }
