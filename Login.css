@@ -3,11 +3,11 @@
         padding: 0px;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
-        display: flex;
 }
   body{ 
         background:rgb(248, 248, 248);
         min-height: 100vh;
+        display: flex;
         align-items: center;
         justify-content: center;
         padding: 20px;

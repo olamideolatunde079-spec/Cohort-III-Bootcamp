@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+body{
+    text-justify: auto;
+    background-color: rgb(241, 245, 243);
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+}
+
+a{
+  display: contents;
+  color: hsla(251, 93%, 6%, 0.918);
+  text-justify: auto;
+  align-content: left;
+}
+title{
+    justify-self: auto;
+}
