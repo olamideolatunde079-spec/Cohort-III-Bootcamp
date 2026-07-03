@@ -3,21 +3,31 @@
         padding: 0px;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
+        background-color: rgb(229, 238, 230);
+    }
+    h1{
+      text-align: center;
+      color: green;
     }
      .container {
-        width: 200% ;
-        max-width: 400px;
+        width: 100% ;
+        max-width: 300px;
         height: 250px;
         margin: 50px auto;
         padding: 0 20px;
-        background: #f5f2f2;
+        background: hsl(120, 20%, 90%);
         border-radius: 5px;
+        justify-content: center;
+        align-content: center;
      }
      .container h1{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 10px;
-        color: #333333;
+        justify-content: center;
+        color: #0c9208;
+        background-color: #d8e6d9;
+        border-radius: 3%;
      }
     form input,
       form textarea{
@@ -27,7 +37,7 @@
          margin-bottom: 10px;
          border:none;
          border-radius: 5px;
-         background: #f9f9f9;
+         background: #d7e2d6;
          color: rgb(0, 0, 0);
       }
       form input:focus,
@@ -46,6 +56,8 @@
             border-radius: 5px;
             cursor: pointer;
             transition: 0.3s ease;
+            align-content: center;
+            justify-content: center;
         }
         form button:hover{
             background-color: rgb(0, 209, 42);
@@ -63,6 +75,12 @@
         width: 400px;
         margin: 20px auto;
      }
+     a {
+      color: rgb(15, 70, 15);
+      text-align: center;
+     }
+
+
      .services {
         max-width: 420px;
         margin: 20px auto;
@@ -93,6 +111,7 @@
         margin-bottom: 18px;
         line-height: 1.7;
         color: #424a55;
+        align-content: center;
      }
      .about-page h2 {
         margin-top: 24px;
@@ -107,11 +126,5 @@
      .about-page li {
         margin-bottom: 10px;
      }
-     a {
-        display: inline-block;
-        margin: 20px auto;
-        text-decoration: none;
-     }
-     a:hover {
-        text-decoration: underline;
-     }
+     
+       
