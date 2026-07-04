@@ -2,27 +2,30 @@
   margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
+        font-family: serif;
 }
-body{
+body {
     text-justify: auto;
-    background-color: rgb(230, 238, 231);
+    background-color: rgb(236, 241, 237);
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large
 }
 ul {
+    align-items: center;
     list-style: disc;
     list-style-position: inside;
     padding-left: 0;
+    font-weight: 200;
 }
 a {
+  align-items: center;
   display: inline;
   color: hsla(251, 93%, 6%, 0.918);
   text-decoration: none;
 }
-title{
+title {
     justify-self: auto;
 }

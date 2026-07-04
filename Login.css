@@ -5,24 +5,21 @@
         font-family: 'Poppins', sans-serif;
 }
   body{ 
-        background:rgb(189, 204, 191);
+        background:hsl(0, 0%, 100%);
         min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 20px;
-   }
-    div {
-        display:flex
     } 
      .wrapper {
         width: 100%;
         max-width: 380px;
-        background: #e0f1e2;
+        background: #ebf3ec;
         border: 1px solid #d8e1e9;
         border-radius: 18px;
         padding: 28px 26px;
-        box-shadow: 0 14px 35px rgba(24, 39, 75, 0.12);
+        box-shadow: 0 14px 35px rgba(5, 136, 27, 0.12);
         gap: 18px;
         display: flex;
         flex-direction: column;
@@ -66,14 +63,15 @@
         gap: 8px;
      }
      .btn {
-        width: 100%;
-        padding: 12px 14px;
+        justify-content: center;
+        align-content: center;
+        padding: 7px;
         border: 1px solid rgb(1, 172, 1);
-        border-radius: 12px;
+        border-radius: 30px;
         background-color: rgb(0, 163, 0);
         color: #ffffff;
         cursor: pointer;
-        transition: background-color 0.2s ease;
+        transition: background-color 0.3s ease;
      }
      .btn:hover {
         background-color: rgb(27, 150, 3);
@@ -81,11 +79,11 @@
      .Register-link {
         text-align: center;
         margin-top: 10px;
-        color: rgb(0, 189, 0);
+        color: rgb(37, 5, 218);
         font-size: 0.95rem;
      }
      .Register-link a {
-        color: green;
+        color: rgb(9, 107, 172);
         text-decoration: none;
      }
      .Register-link a:hover {
@@ -93,7 +91,7 @@
      }
      p[align="center"] {
         margin-top: 18px;
-        color: #476950;
+        color: #ffffff;
      }
      p[align="center"] a {
         color: #2563eb;
